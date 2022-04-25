@@ -36,10 +36,12 @@
      margin-right:  40px;
      margin-top: 40px;
      margin-left: 10px;
+     /* flex: 1; */
  }
 
  .container {
      margin-left: 140px;
+     display: flex;
  }
 
  .row1, .row2, .row3, .row4, .row5 {
@@ -56,9 +58,54 @@
         rgba(43, 223, 73, 0.0055) 10%,
         rgba(31,253,11,0.08) 50%,
         rgba(41, 221, 71, 0.2) 100%
-
     );
  }
+
+ .curve {
+     width: 200px;
+     height: 170px;
+     border: solid 5px rgb(235, 248, 49);
+     border-color:  rgb(250, 229, 41) transparent transparent transparent;
+     border-radius: 100%/330px 0 0 50%;
+     position: absolute;
+     top: 421px;
+     transform: rotate(-11.8deg);
+ }
+
+ .wave {
+    width: 350px;
+    height: 160px;
+    border: solid 5px rgb(186, 231, 143);
+    border-color:  rgb(186, 231, 143) transparent transparent transparent;
+    position: absolute;
+    top: 374px;
+    left: 439px;
+    transform: rotate(-9deg);
+ }
+
+ .curve1 {
+    width: 170px;
+    height: 160px;
+    border: solid 5px #97f83b;
+    border-color:  #97f83b transparent transparent transparent;
+    position: absolute;
+    top: 334px;
+    left: 783px;
+    transform: rotate(-9deg);
+     }
+
+     .curve2 {
+        width: 210px;
+        height: 170px;
+        border: solid 5px #14a2b4;
+        border-color:  #14a2b4 transparent transparent transparent;
+        border-radius: 100%/280px 0 0 ;
+        position:  absolute;
+        top: 130.5px;
+        left: 919px;
+        transform: rotate(170.3deg);
+    }
+
 
  .link {
     color: white;
@@ -120,9 +167,12 @@
 
 .word1 {
     color: white;
-    left: 640px;
+    left: 645px;
     top: 500px;
     position: absolute;
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+ 
